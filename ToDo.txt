@@ -1,22 +1,22 @@
-Feb 13th:
-	  /
+Started on February 13th so progress made prior to that isn't recorded here
+
+	  /	(Completed 2/13)
 	\/  Install libadwaita dev dependencies
 
-	Convert project to use libadwaita
-
-	Create sidebar
-
-	Start writing functions to interact with DBUS API using dbus crate
-
-	  /
+	  /	(2/13)
 	\/  Fix Dbus crate not finding system Dbus
 
-	  /
+	  /	(2/13)
 	\/  I might need to switch to a different Rust dbus crate. dbus-rs is being weird
 		Alternatives include zbus and rustbus
 		zbus is very active, has recent updates, and lots of contributors. Gonna switch to it
 
-	  /
+	  /	(2/13)
 	\/  Add asynchronous runtime
 
-	
+	Flesh out UI: Settings menu, sidebar, top bar, etc
+		Use Workbench from flatpak for this. Lots of great examples and can generate the Rust code for me
+
+	Start writing functions to interact with DBUS API using zbus crate
+
+	Start writing functions to poll current processes for auto-profile-switching
