@@ -1,0 +1,22 @@
+Feb 13th:
+	  /
+	\/  Install libadwaita dev dependencies
+
+	Convert project to use libadwaita
+
+	Create sidebar
+
+	Start writing functions to interact with DBUS API using dbus crate
+
+	  /
+	\/  Fix Dbus crate not finding system Dbus
+
+	  /
+	\/  I might need to switch to a different Rust dbus crate. dbus-rs is being weird
+		Alternatives include zbus and rustbus
+		zbus is very active, has recent updates, and lots of contributors. Gonna switch to it
+
+	  /
+	\/  Add asynchronous runtime
+
+	
